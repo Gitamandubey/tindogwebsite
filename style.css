@@ -1,0 +1,101 @@
+#title{
+    background-color:#ff4c68;
+    padding-bottom: 15%;
+
+}
+h1{
+    font-family: 'Rubik', sans-serif;
+    color:black;
+    font-size:3rem;
+    line-height:1.5;
+    color:white;
+}
+.container-fluid{
+    padding : 3% 15% ;
+}
+.navbar-brand{
+    font-family:'Ubuntu', sans-serif;
+    font-size:2.5rem;
+    font-weight: bold;
+}
+.dog-phone-image{
+    transform:rotate(15deg);
+}
+#features{
+    background-color: white;
+    position : relative;;
+    padding:10% 15%;
+    text-align:center;
+}
+.iconing{
+color:#ff4c68;
+padding-bottom:1rem;
+}
+.iconing:hover{
+    color:#c00622;
+}
+#testimonials{
+    background-color:#ff4c68;
+}
+.carousel-item{
+
+    padding:0% 20% 0% 20%;
+}
+#press{
+    background-color:#ff4c68;
+    padding:4rem 1rem 3rem 1rem;
+    text-align: center;
+}
+#pricing{
+    text-align: center;
+    padding:3% 3% 3% 3% ;
+}
+.image-dog{
+    position :absolute;
+    width: 70%;
+    right:5%;
+    top: 15%;
+
+}
+@media (max-width : 1100px){
+    .image-dog{
+        position : static;
+        width:60%;
+    }
+
+
+.dog-phone-image{
+    transform: rotate(0);
+}
+#title{
+    padding-bottom: 0%;
+    text-align: center;
+}
+.btw{
+    margin-bottom:1rem;
+}
+}
+#cta{
+    background-color:#ff4c68;
+    
+    color:white ; 
+    text-align:center;
+    padding:4rem 0 4rem 0  ;
+    
+}
+.down-button{
+    margin-top:2rem ;
+    color:white;
+}
+.down-heading{
+    font-family: 'Rubik', sans-serif;
+}
+#footer{
+    padding:2rem 0 2rem 0;
+    text-align:center;
+    background-color:#fff;
+
+}
+.contact{
+    color:black;
+}
